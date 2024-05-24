@@ -47,3 +47,8 @@ div {
     75% {background-color: blue; left: 100px; top: 0px;}
     100% {background-color: blue; left: 0px; top: 0px;}
 }
+@media screen and (max-width: 480px) {
+    section#main, nav {
+        width: 100%;
+    }
+}
